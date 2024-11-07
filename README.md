@@ -1,4 +1,4 @@
-0 Amazon-Life_Landing-Page
+# Amazon-Life_Landing-Page
 //Información del proyecto:
 
 -El proyecto trata sobre una aplicación comprometida con la protección de la Amazonía peruana. Nuestro objetivo es ofrecer una solución innovadora que combina tecnología avanzada y participación comunitaria para combatir la destrucción causada por la minería ilegal y la tala indiscriminada, buscando así preservar el medio ambiente y mejorar las condiciones ambientales en la región.
