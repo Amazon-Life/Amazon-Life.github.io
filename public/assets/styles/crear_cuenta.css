@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: #27BA73;
+}
+
+.content-form{
+    width: 100%;
+    margin: auto 0;
+    background-color: #ffffff;
+}
+
+.content-form img{
+    width: 8%;
+    display: block;
+    margin: 40px auto;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.content-form h2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "LilitaOne";
+    font-size: 63px;
+    color: #27BA73;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 28%;
+    height: 30px;
+    font-size: 24px;
+    font-family: "Lato";
+    background-color: #27BA73;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    display: inline;
+    color: #ffffff;
+    border: #000000 1px solid;
+    background-color: #27BA73;
+    border-radius: 10px;
+    margin-left: 42.5%;
+    margin-top: 20px;
+    width: 15%;
+    height: 40px;
+    font-size: 32px;
+    font-family: "LilitaOne";
+}
+
+p{
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #7799FF;
+    font-family: "LilitaOne";
+}
+
+input::placeholder {
+    color: #e1e1e1;
+}
+
+label{
+    color: #27BA73;
+    font-family: "LilitaOne";
+    font-size: 21px;
+    margin-left: 36%;
+}
+
+.button_submit a{
+    text-decoration: none;
+}
+
+.button_submit p{
+    color: #ffffff;
+    border: #000000 1px solid;
+    background-color: #27BA73;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 10%;
+    height: 10px;
+    font-size: 24px;
+    font-family: "LilitaOne";
+}
+
+.terms_check{
+    display: flex;
+}
+
+.terms_check label{
+    font-family: "Lato";
+    font-size: 16px;
+    color: #000000;
+}
+
+.terms_check a{
+    color: #7799FF;
+    text-decoration: underline;
+    font-family: "Lato";
+}
+
+.terms_check input{
+    width: 18px;
+    margin: 0;
+    margin-left: 10%;
+}

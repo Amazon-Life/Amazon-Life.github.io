@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    background-color: #1F1F1F;
+    color: #F1FFF8;
+}
+
+#logo_head{
+    width: 4%;
+    margin: 6px 0;
+    margin-left: 50px;
+}
+
+.head h1{
+    margin: auto 0;
+    margin-left: 15px;
+    font-family: "LilitaOne";
+    font-size: 50px;
+    width: 100%;
+}
+
+.head a{
+    margin: auto 5px;
+    width: 4%;
+}
+
+.head img{
+    width: 90%;
+    margin: 0;
+}
+
+#person_icon_id{
+    margin-right: 4%;
+}
+
+.menu{
+    background-color: #49494B;
+    width: 100%;
+    z-index: 100;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles_page{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.titles_page li a{
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'LilitaOne';
+    margin: 0 70px;
+    text-decoration: none;
+}
+
+.titles_page li a:hover{
+    color: #27BA73;
+}
+
+.menu_vertical{
+    padding: 0;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+.menu_vertical li a{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'LilitaOne';
+    margin: 10px;
+    text-decoration: none;
+}
+
+.titles_page li:hover .menu_vertical{
+    background-color: #49494B;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+    margin: 0 55px;
+}
+
+footer{
+    background-color: #49494B;
+    width: 100%;
+}
+
+.title_img{
+    display: flex;
+    width: 100%;
+}
+
+.img{
+    width: 20%;
+    margin: auto;
+}
+
+.title_img h2{
+    color: #F1FFF8;
+    width: 100%;
+    font-size: 42px;
+    font-family: "LilitaOne";
+    padding: 0 10%;
+}
+
+.title_img img{
+    width: 20%;
+}
+
+.content{
+    display: flex;
+    color: #F1FFF8;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content_left{
+    margin: auto;
+    color: #F1FFF8;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content_left h3{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "LilitaOne";
+}
+
+.content_left li{
+    list-style: none;
+}
+
+.content_left a{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lato";
+}
+
+.content_right{
+    margin: auto;
+    color: #F1FFF8;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content_right h3{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "LilitaOne";
+}
+
+.content_right li{
+    list-style: none;
+}
+
+.content_right a{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lato";
+}
+
+.text_donation{
+    border-top: #000000 solid 1px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.text_donation h2{
+    text-align: center;
+    font-family: "LilitaOne";
+    font-size: 50px;
+    width: 20%;
+    margin: 20px auto;
+    color: #1F1F1F;
+}
+
+.text_donation p{
+    text-align: center;
+    font-family: "Lato";
+    font-size: 28px;
+    width: 25%;
+    margin: 20px auto;
+    color: #000100;
+}
+
+.button_donation{
+    background-color: #27BA73;
+    width: 15%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.button_donation a{
+    text-decoration: none;
+}
+
+.button_donation p{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "LilitaOne";
+    width: 100%;
+    margin: 0;
+}
+
+.button_back{
+    background-color: #27BA73;
+    width: 6%;
+    margin: auto;
+    margin-left: 5%;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.button_back a{
+    text-decoration: none;
+}
+
+.button_back p{
+    color: #F1FFF8;
+    font-size: 20px;
+    font-family: "LilitaOne";
+    text-align: center;
+    margin: 5% 0;
+}
+
+.content_info{
+    display: block;
+    border-top: #000000 solid 1px;
+}
+
+.content_info h2{
+    text-align: center;
+    color: #000100;
+    font-family: "Lato";
+    font-size: 50px;
+    margin: 60px auto;
+    width: 90%;
+}
+
+.content_info h3{
+    width: 80%;
+    color: #1F1F1F;
+    font-family: "Lato";
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.content_info p{
+    width: 70%;
+    color: #1F1F1F;
+    text-align: justify;
+    font-family: "Lato";
+    margin: 5px auto;
+    
+}
+
+.content_info iframe{
+    width: 30%;
+    height: 250px;
+    margin: 20px 35%;
+}
+
+.top_button_date{
+    display: flex;
+    width: 100%;
+}
+
+#date_new{
+    font-family: "Lato";
+    padding-right: 8%;
+}
