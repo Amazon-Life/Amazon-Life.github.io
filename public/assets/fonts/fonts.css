@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "LilitaOne";
+    src: url(/public/assets/fonts/LilitaOne-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Lato";
+    src: url(/public/assets/fonts/Lato/Lato-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
