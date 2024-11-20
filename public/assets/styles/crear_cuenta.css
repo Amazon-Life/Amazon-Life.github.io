@@ -71,20 +71,16 @@ label{
     margin-left: 36%;
 }
 
-.button_submit a{
-    text-decoration: none;
-}
-
-.button_submit p{
+.content-form button{
     color: #ffffff;
     border: #000000 1px solid;
     background-color: #27BA73;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0 45%;
     margin-top: 20px;
     margin-bottom: 10px;
     width: 10%;
-    height: 10px;
+    height: 30px;
     font-size: 24px;
     font-family: "LilitaOne";
 }

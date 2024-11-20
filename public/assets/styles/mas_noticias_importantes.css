@@ -279,3 +279,79 @@ h2{
     font-family: "LilitaOne";
     text-align: center;
 }
+
+.open-menu, .close-menu{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .menu{
+        flex-direction: row;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: #49494B;
+        height: 100%;
+        overflow-y: auto;
+        pointer-events: none;
+        transform: translateY(-100%);
+        transition: opacity 0.3s, transform 0.3s;
+        z-index: 999;
+        opacity: 0;
+    }
+
+    .menu.menu_opened{
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0);
+    }
+
+    .menu li{
+        padding: 0;
+    }
+
+    .menu a{
+        color: #000000;
+        line-height: 70px;
+        font-size: 25px;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .menu a:hover, .menu a.selected{
+        color: #0000FF;
+        text-decoration: underline;
+    }
+
+    .menu a:focus{
+        outline: 2px dashed #0000FF;
+        outline-offset: 4px;
+    }
+
+    .menu a::after{
+        content: none;
+    }
+
+    .open-menu, .close-menu{
+        display: block;
+        border: none;
+        background: #49494B;
+        cursor: pointer;
+        z-index: 1000;
+        margin-right: 30px;
+        width: 100%;
+    }
+
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+
+    .open-menu:focus:not(:focus-visible), .close-menu:focus:not(:focus-visible){
+        outline: none;
+    }
+
+}
