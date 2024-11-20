@@ -282,9 +282,14 @@ h2{
     box-shadow: #27BA73 0 1px 0 2px;
 }
 
+.options a{
+    text-decoration: none;
+}
+
 .options p{
     font-size: 30px;
     margin: 5px 20px;
+    color: #000000;
 }
 
 .open-menu, .close-menu{
