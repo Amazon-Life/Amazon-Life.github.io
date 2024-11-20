@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    background-color: #1F1F1F;
+    color: #F1FFF8;
+}
+
+#logo_head{
+    width: 4%;
+    margin: 6px 0;
+    margin-left: 50px;
+}
+
+.head h1{
+    margin: auto 0;
+    margin-left: 15px;
+    font-family: "LilitaOne";
+    font-size: 50px;
+    width: 100%;
+}
+
+.head a{
+    margin: auto 5px;
+    width: 4%;
+}
+
+.head img{
+    width: 90%;
+    margin: 0;
+}
+
+#person_icon_id{
+    margin-right: 4%;
+}
+
+.menu{
+    background-color: #49494B;
+    width: 100%;
+    z-index: 100;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titles_page{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.titles_page li a{
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'LilitaOne';
+    margin: 0 70px;
+    text-decoration: none;
+}
+
+.titles_page li a:hover{
+    color: #27BA73;
+}
+
+.menu_vertical{
+    padding: 0;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+.menu_vertical li a{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'LilitaOne';
+    margin: 10px;
+    text-decoration: none;
+}
+
+.titles_page li:hover .menu_vertical{
+    background-color: #49494B;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+    margin: 0 55px;
+}
+
+footer{
+    background-color: #49494B;
+    width: 100%;
+}
+
+.title_img{
+    display: flex;
+    width: 100%;
+}
+
+.img{
+    width: 20%;
+    margin: auto;
+}
+
+.title_img h2{
+    color: #F1FFF8;
+    width: 100%;
+    font-size: 42px;
+    font-family: "LilitaOne";
+    padding: 0 10%;
+}
+
+.title_img img{
+    width: 20%;
+}
+
+.content{
+    display: flex;
+    color: #F1FFF8;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content_left{
+    margin: auto;
+    color: #F1FFF8;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content_left h3{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "LilitaOne";
+}
+
+.content_left li{
+    list-style: none;
+}
+
+.content_left a{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lato";
+}
+
+.content_right{
+    margin: auto;
+    color: #F1FFF8;
+    text-decoration: none;
+    list-style: none;
+}
+
+.content_right h3{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "LilitaOne";
+}
+
+.content_right li{
+    list-style: none;
+}
+
+.content_right a{
+    color: #F1FFF8;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Lato";
+}
+
+.text_donation{
+    border-top: #000000 solid 1px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.text_donation h2{
+    text-align: center;
+    font-family: "LilitaOne";
+    font-size: 50px;
+    width: 20%;
+    margin: 20px auto;
+    color: #1F1F1F;
+}
+
+.text_donation p{
+    text-align: center;
+    font-family: "Lato";
+    font-size: 28px;
+    width: 25%;
+    margin: 20px auto;
+    color: #000100;
+}
+
+.button_donation{
+    background-color: #27BA73;
+    width: 15%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.button_donation a{
+    text-decoration: none;
+}
+
+.button_donation p{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "LilitaOne";
+    width: 100%;
+    margin: 0;
+}
+
+h2{
+    color: #27BA73;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: "LilitaOne";
+}
+
+.card {
+    border: #27BA73 3px solid;
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card-top {
+    display: flex;
+}
+
+.card-top-img {
+    width: 40%;
+}
+
+.card-top-img img{
+    width: 40%;
+    border-radius: 100%;
+    margin-left: 29%;
+    margin-top: 10%;
+}
+
+.card-top-p {
+    border-left: #000000 1px solid;
+    width: 35%;
+}
+
+.card-top-p p{
+    border: #000000 1px solid;
+    border-radius: 5px;
+    margin-left: 20%;
+    padding: 4px;
+    color: #49494B;
+}
+
+.card-top-p label{
+    border-bottom: #27BA73 1px solid;
+    color: #27BA73;
+    font-size: 26px;
+    margin-left: 20%;
+}
+
+.card-bottom{
+    border-top: #000000 1px solid;
+}
+
+.options{
+    border: #000000 1px solid;
+    border-radius: 5px;
+    margin: 15px auto;
+    height: 40px;
+    box-shadow: #27BA73 0 1px 0 2px;
+}
+
+.options p{
+    font-size: 30px;
+    margin: 5px 20px;
+}
+
+.open-menu, .close-menu{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .menu{
+        flex-direction: row;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: #49494B;
+        height: 100%;
+        overflow-y: auto;
+        pointer-events: none;
+        transform: translateY(-100%);
+        transition: opacity 0.3s, transform 0.3s;
+        z-index: 999;
+        opacity: 0;
+    }
+
+    .menu.menu_opened{
+        opacity: 1;
+        pointer-events: all;
+        transform: translateY(0);
+    }
+
+    .menu li{
+        padding: 0;
+    }
+
+    .menu a{
+        color: #000000;
+        line-height: 70px;
+        font-size: 25px;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .menu a:hover, .menu a.selected{
+        color: #0000FF;
+        text-decoration: underline;
+    }
+
+    .menu a:focus{
+        outline: 2px dashed #0000FF;
+        outline-offset: 4px;
+    }
+
+    .menu a::after{
+        content: none;
+    }
+
+    .open-menu, .close-menu{
+        display: block;
+        border: none;
+        background: #49494B;
+        cursor: pointer;
+        z-index: 1000;
+        margin-right: 30px;
+        width: 100%;
+    }
+
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+
+    .open-menu:focus:not(:focus-visible), .close-menu:focus:not(:focus-visible){
+        outline: none;
+    }
+
+}
