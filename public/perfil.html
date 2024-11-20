@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/assets/styles/Voluntariados1.css">
-    <link rel="stylesheet" href="/public/assets/fonts/fonts.css">
-    <link rel="icon" href="/Imagen/logo_amazon_life_white.png">
-    <title>Limpieza de Ríos</title>
+    <link rel="stylesheet" href="/public/assets/styles/perfil.css">
+    <link rel="stylesheet" href="public/assets/fonts/fonts.css">
+    <link rel="icon" href="/public/favicon.ico">
+    <title>Mi perfil</title>
 </head>
 <body>
     <header>
         <div class="head">
-            <img src="/public/assets/image/logo_amazon_life_white.png" id="logo_head">
+            <img src="/public/assets/image/logo_amazon_life_blue.png" id="logo_head">
             <h1>Amazon Life</h1>
             <a href=""><img src="/public/assets/image/busqueda_icon.png"></a>
             <a href="/public/perfil.html" id="person_icon_id"><img src="/public/assets/image/persona_icon.png"></a>
         </div>
+        <button class="open-menu" aria-label="Abrir-menu">
+            <img src="/public/assets/image/icons8-menu-24.png" alt="/">
+        </button>
         <div class="menu">
             <ul class="titles_page">
+                <button class="close-menu" aria-label="Cerrar-menu">
+                    <img src="/public/assets/image/icons8-close-24.png" alt="/">
+                </button>
                 <li><a href="/public/inicio.html">Inicio</a></li>
                 <li><a href="/public/noticias.html">Noticias</a></li>
                 <li><a href="">Reportar actividad ilegal</a></li>
@@ -25,7 +31,7 @@
                     <a href="">Comunidad</a>
                     <ul class="menu_vertical">
                         <li> <a href="/public/voluntariados.html">Voluntariado</a></li>
-                        <li> <a href="/public/ForoDiscusion.html">Foro de discusion</a></li>
+                        <li> <a href="">Foro de discusion</a></li>
                     </ul>
                 </li>
                 <li>
@@ -38,28 +44,39 @@
             </ul>
         </div>
     </header>
-    <div class="button_back">
-        <a href="/public/voluntariados.html"><p>VOLVER</p></a>
-    </div>
-    <div class="content_project">
-        <h2>Conversamos por Naturaleza</h2>
-        <img src="/public/assets/image/Voluntariado4.jpg" alt="Limpieza de Ríos" class="project_image">
-        <p>
-            La limpieza de los ríos amazónicos es crucial para mantener el equilibrio ecológico y garantizar la salud de los ecosistemas acuáticos. Este programa tiene como objetivo involucrar a voluntarios en actividades de limpieza de ríos, eliminación de residuos plásticos y educación ambiental para promover prácticas sostenibles entre las comunidades locales.
-        </p>
-        <h3>Actividades Incluidas:</h3>
-        <ul>
-            <li>Limpieza de ríos y áreas cercanas afectadas por residuos plásticos y contaminantes.</li>
-            <li>Monitoreo de la calidad del agua en las zonas de intervención.</li>
-            <li>Campañas educativas sobre la importancia de mantener limpios los cuerpos de agua.</li>
-        </ul>
-        <h3>Beneficios de Participar:</h3>
-        <p>
-            Como voluntario, tendrás la oportunidad de trabajar en estrecha colaboración con expertos en conservación acuática, aprender sobre la biodiversidad de los ríos amazónicos y contribuir a la preservación de uno de los ecosistemas más ricos y vitales del planeta.
-        </p>
-        <a href="https://www.conservamospornaturaleza.org/noticia/oportunidades-cxn-voluntariado-rios-amazonia-peruana/" class="signup_btn" target="_blank">Ir al sitio</a>
+    <h2>MI PERFIL</h2>
+    <div class="card">
+        <div class="card-top">
+            <div class="card-top-img">
+                <img src="/public/assets/image/persona_icon.png">
+            </div>
+            <div class="card-top-p">
+                <label>Nombes</label>
+                <p id="name">Benjamin Sandonas</p>
+                <label>Correo</label>
+                <p id="correo">sandonas22@gmail.com</p>
+                <label>Numero</label>
+                <p id="numero">941136537</p>
+                <label>Fecha</label>
+                <p id="fecha">22 de Agosto de 2006</p>
+            </div> 
+        </div>
+        <div class="card-bottom">
+            <div class="options"><p>Opciones</p></div>
+            <div class="options"><a href=""><p>Intereses</p></a></div>
+            <div class="options"><a href=""><p>Mis donaciones</p></a></div>
+            <div class="options"><p>Seguridad</p></div>
+            <div class="options"><p>Privacidad</p></div>
+        </div>
     </div>
     <footer>
+        <div class="text_donation">
+            <h2>Unete contra la causa</h2>
+            <p>Tu donación puede salvar la Amazonía: protege el pulmón del planeta y asegura un futuro verde para las próximas generaciones.</p>
+            <div class="button_donation">
+                <a href="/public/donaciones.html"><p>Apóyanos</p></a>
+            </div>
+        </div>
         <div class="title_img">
             <h2>Amazon Life</h2>
             <div class="img">
@@ -88,4 +105,5 @@
         </div>
     </footer>
 </body>
+<script src="/public/assets/scripts/menu.js"></script>
 </html>

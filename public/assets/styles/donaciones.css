@@ -199,7 +199,7 @@ footer{
     width: 100%;
     border-top: #000000 solid 1px;
     background-color: #2e3e34;
-    background-image: url(/Imagen/logo_amazon_life_white.png);
+    background-image: url(/public/assets/image/logo_amazon_life_white.png);
     background-size: 20%;
     background-position: 50% 65%;
     background-repeat: no-repeat;
