@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/public/assets/styles/mapa.css" />
-    <link rel="stylesheet" href="/public/assets/fonts/fonts.css" />
-    <link rel="icon" href="/public/favicon.ico" />
-    <title>Donaciones</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/assets/styles/mapa.css">
+    <link rel="stylesheet" href="/public/assets/fonts/fonts.css">
+    <link rel="icon" href="/public/favicon.ico">
+    <title>Actividad ilegal</title>
+</head>
+<body>
     <header>
-      <div class="head">
-        <img
-          src="/public/assets/image/logo_amazon_life_blue.png"
-          id="logo_head"
-        />
-        <h1>Amazon Life</h1>
-        <a href=""><img src="/public/assets/image/busqueda_icon.png" /></a>
-        <a href="/public/perfil.html" id="person_icon_id"
-          ><img src="/public/assets/image/persona_icon.png"
-        /></a>
-      </div>
-      <button class="open-menu" aria-label="Abrir-menu">
-        <img src="/public/assets/image/icons8-menu-24.png" alt="/" />
-      </button>
-      <div class="menu">
-        <ul class="titles_page">
-          <button class="close-menu" aria-label="Cerrar-menu">
-            <img src="/public/assets/image/icons8-close-24.png" alt="/" />
-          </button>
-          <li><a href="/public/inicio.html">Inicio</a></li>
-          <li><a href="/public/noticias.html">Noticias</a></li>
-          <li><a href="/public/mapa.html">Reportar actividad ilegal</a></li>
-          <li>
-            <a href="">Comunidad</a>
-            <ul class="menu_vertical">
-              <li><a href="/public/voluntariados.html">Voluntariado</a></li>
-              <li>
-                <a href="/public/ForoDiscusion.html">Foro de discusion</a>
-              </li>
+        <div class="head">
+            <img src="/public/assets/image/logo_amazon_life_blue.png" id="logo_head">
+            <h1>Amazon Life</h1>
+            <a href=""><img src="/public/assets/image/busqueda_icon.png"></a>
+            <a href="/public/perfil.html" id="person_icon_id"><img src="/public/assets/image/persona_icon.png"></a>
+        </div>
+        <button class="open-menu" aria-label="Abrir-menu">
+            <img src="/public/assets/image/icons8-menu-24.png" alt="/">
+        </button>
+        <div class="menu">
+            <ul class="titles_page">
+                <button class="close-menu" aria-label="Cerrar-menu">
+                    <img src="/public/assets/image/icons8-close-24.png" alt="/">
+                </button>
+                <li><a href="/public/inicio.html">Inicio</a></li>
+                <li><a href="/public/noticias.html">Noticias</a></li>
+                <li><a href="/public/mapa.html">Reportar actividad ilegal</a></li>
+                <li>
+                    <a href="">Comunidad</a>
+                    <ul class="menu_vertical">
+                        <li> <a href="/public/voluntariados.html">Voluntariado</a></li>
+                        <li> <a href="/public/ForoDiscusion.html">Foro de discusion</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Sobre Nosotros</a>
+                    <ul class="menu_vertical">
+                        <li><a href="/public/quienes_somos.html">Quienes somos</a></li>
+                        <li><a href="/public/contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
             </ul>
-          </li>
-          <li>
-            <a href="">Sobre Nosotros</a>
-            <ul class="menu_vertical">
-              <li><a href="/public/quienes_somos.html">Quienes somos</a></li>
-              <li><a href="/public/contacto.html">Contacto</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+        </div>
     </header>
     <div class="button_back">
-      <a href="/public/inicio.html"><p>VOLVER</p></a>
+        <a href="/public/inicio.html"><p>VOLVER</p></a>
     </div>
 
     <section class="map-container">
         <div class="map-header">
-          <p> <span class="red-dot">•</span> Áreas afectadas</p>
+            <p> <span class="red-dot">•</span> Áreas afectadas</p>
         </div>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4070174.9168352038!2d-80.57127306206264!3d-4.976161467921901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b5fa68b2b1689b%3A0x274c7cb97b90b44c!2sAmazonas!5e0!3m2!1ses-419!2spe!4v1732149949070!5m2!1ses-419!2spe"
@@ -70,34 +63,55 @@
         </iframe>
     </section>
 
+    <section class="form-container">
+        <h2>Reportar Actividad Ilegal</h2>
+        <form id="illegalActivityForm">
+            <label for="zona">Zona</label>
+            <input type="text" id="zona" name="zona" placeholder="Ingresa la zona" required />
+    
+            <label for="fechaHora">Día y Hora</label>
+            <input type="datetime-local" id="fechaHora" name="fechaHora" required />
+    
+            <label for="descripcion">Cuéntanos lo sucedido</label>
+            <textarea id="descripcion" name="descripcion" rows="5" placeholder="Escribe una descripción detallada" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+        <form class="thank-you-message" id="thankYouMessage">
+            <p>¡Gracias por ayudarnos a registrar la actividad ilegal!</p>
+            <button type="submit">Reportar otro caso</button>
+        </form>
+
+    </section>
+
     <footer>
-      <div class="title_img">
-        <h2>Amazon Life</h2>
-        <div class="img">
-          <a href=""><img src="/public/assets/image/instagram_logo.png" /></a>
-          <a href=""><img src="/public/assets/image/x_logo.png" /></a>
-          <a href=""><img src="/public/assets/image/facebook_logo.png" /></a>
+        <div class="title_img">
+            <h2>Amazon Life</h2>
+            <div class="img">
+                <a href=""><img src="/public/assets/image/instagram_logo.png"></a>
+                <a href=""><img src="/public/assets/image/x_logo.png"></a>
+                <a href=""><img src="/public/assets/image/facebook_logo.png"></a>
+            </div>
         </div>
-      </div>
-      <div class="content">
-        <div class="content_left">
-          <h3>Contenido</h3>
-          <ul>
-            <li><a href="/public/inicio.html">Inicio</a></li>
-            <li><a href="/public/noticias.html">Noticias</a></li>
-            <li><a href="">Reportar actividad ilegal</a></li>
-            <li><a href="">Comunidad</a></li>
-          </ul>
+        <div class="content">
+            <div class="content_left">
+                <h3>Contenido</h3>
+                <ul>
+                    <li><a href="/public/inicio.html">Inicio</a></li>
+                    <li><a href="/public/noticias.html">Noticias</a></li>
+                    <li><a href="">Reportar actividad ilegal</a></li>
+                    <li><a href="">Comunidad</a></li>
+                </ul>
+            </div>
+            <div class="content_right">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="">Quienes somos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="content_right">
-          <h3>Sobre Nosotros</h3>
-          <ul>
-            <li><a href="">Quienes somos</a></li>
-            <li><a href="">Contacto</a></li>
-          </ul>
-        </div>
-      </div>
     </footer>
-  </body>
-  <script src="/public/assets/scripts/menu.js"></script>
+</body>
+<script src="/public/assets/scripts/report.js"></script>
 </html>
