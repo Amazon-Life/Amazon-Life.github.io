@@ -342,6 +342,9 @@ footer{
     color: #555;
 }
 
+.open-menu, .close-menu{
+    display: none;
+}
 
 @media (max-width: 768px) {
     
