@@ -1,35 +1,73 @@
-# Amazon-Life_Landing-Page
-//Información del proyecto:
+# 🌱 Amazon Life – Landing Page
 
--El proyecto trata sobre una aplicación comprometida con la protección de la Amazonía peruana. Nuestro objetivo es ofrecer una solución innovadora que combina tecnología avanzada y participación comunitaria para combatir la destrucción causada por la minería ilegal y la tala indiscriminada, buscando así preservar el medio ambiente y mejorar las condiciones ambientales en la región.
+> Plataforma digital orientada a la concientización y protección de la Amazonía peruana
 
-//Autores:
+[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
--De La Cruz Ramirez Arthur Vincent
+---
 
--Pérez Saavedra Alan Aaron
+## 📋 Descripción
 
--Quispe Salvador Jean Paul
+**Amazon Life** es una landing page informativa desarrollada como parte de un proyecto académico, orientada a la protección de la Amazonía peruana.  
+La plataforma busca sensibilizar a los usuarios sobre problemáticas ambientales como la minería ilegal y la tala indiscriminada, promoviendo acciones responsables mediante información, recomendaciones y participación comunitaria.
 
--Sandonas Mechato Benjamín Del Piero
+El proyecto prioriza la **experiencia de usuario (UX)**, el **diseño visual** y una **arquitectura clara de contenidos**.
 
--Zurita Lara Rodrigo Eduardo
+---
 
-//Segmentos Objetivos:
+## 🎯 Objetivo del Proyecto
 
--Personas comprometidas con la protección de la Amazonía peruana: Realizan acciones pequeñas pero significativas en su vida diaria para contribuir a su protección.
+- Promover la concientización ambiental sobre la conservación de la Amazonía peruana  
+- Difundir información relevante y actualizada sobre problemáticas ambientales  
+- Incentivar la participación comunitaria y acciones sostenibles  
+- Ofrecer una experiencia de usuario intuitiva y accesible  
 
--Estudiantes universitarios enfocados en la conservación ambiental: Jóvenes de áreas como ciencias ambientales, biología, ingeniería forestal y tecnología que buscan contribuir activamente a la protección de la Amazonía peruana. 
+---
 
-//Principales caracteristicas:
+## ✨ Características Principales
 
--Interfaz amigable y accesible: Diseñada para ser fácil de usar, incluso para quienes no están familiarizados con aplicaciones de conservación ambiental.
+- 🌿 **Interfaz amigable y accesible**  
+  Diseño intuitivo pensado para facilitar la navegación a todo tipo de usuarios.
 
--Diseño atractivo y funcional: La aplicación cuenta con un diseño visualmente agradable y bien estructurado, que permite una navegación sencilla e intuitiva.
+- 🎨 **Diseño visual atractivo y funcional**  
+  Estructura clara y ordenada que mejora la comprensión del contenido.
 
--Experiencia de usuario optimizada: La estructura intuitiva facilita el acceso a funciones clave, ayudando a los usuarios a realizar acciones sin complicaciones.
+- 🧭 **Arquitectura de información optimizada**  
+  Organización eficiente de secciones para un acceso rápido a la información clave.
 
--Consejos y recomendaciones personalizadas: Ofrece recomendaciones adaptadas a las preferencias y necesidades de cada usuario, incentivando acciones positivas para la protección de la Amazonía.
+- 📢 **Contenido informativo y recomendaciones**  
+  Consejos orientados a fomentar prácticas responsables con el medio ambiente.
 
--Sistema de noticias y foros comunitarios: Mantiene a los usuarios informados con noticias relevantes y proporciona un espacio de discusión para compartir ideas, experiencias y consejos sobre temas de conservación ambiental.
+- 🧑‍🤝‍🧑 **Sección de noticias y comunidad**  
+  Espacios de interacción para compartir ideas, experiencias y reflexiones sobre la conservación ambiental.
 
+---
+
+## 👥 Segmentos Objetivo
+
+- **Personas comprometidas con la protección de la Amazonía peruana**  
+  Usuarios interesados en contribuir con acciones cotidianas para la preservación ambiental.
+
+- **Estudiantes universitarios enfocados en conservación ambiental**  
+  Jóvenes de áreas como ciencias ambientales, biología, ingeniería y tecnología.
+
+---
+
+## 🛠️ Stack Tecnológico
+
+- **HTML5** – Estructura del contenido  
+- **CSS3** – Diseño visual y estilos  
+- **JavaScript** – Interactividad básica  
+- **Figma** – Diseño de interfaces y prototipado  
+
+---
+
+## 👨‍💻 Equipo de Desarrollo
+
+- De La Cruz Ramírez, Arthur Vincent  
+- Pérez Saavedra, Alan Aaron  
+- Quispe Salvador, Jean Paul  
+- Sandonas Mechato, Benjamín Del Piero
+- Zurita Lara, Rodrigo Eduardo  
